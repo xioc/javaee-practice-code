@@ -1,0 +1,16 @@
+DROP DATABASE IF EXISTS liuyan;
+CREATE DATABASE liuyan;
+
+USE liuyan;
+
+CREATE TABLE user_inf
+(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	NAME VARCHAR(255),
+	pass VARCHAR(255)
+);
+
+INSERT INTO user_inf
+VALUES(NULL,'crazyit','123');
+INSERT INTO user_inf
+VALUES(NULL,'tiger','123');

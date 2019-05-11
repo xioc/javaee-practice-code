@@ -1,0 +1,10 @@
+#
+#Sun Jan 21 01:22:36 CST 2018
+org.crazyit.hrsystem.web.AuthImg=javax.servlet.annotation.WebServlet
+org.crazyit.hrsystem.domain.Attend=javax.persistence.Entity,javax.persistence.Table
+org.crazyit.hrsystem.domain.CheckBack=javax.persistence.Entity,javax.persistence.Table
+org.crazyit.hrsystem.domain.Application=javax.persistence.Entity,javax.persistence.Table
+org.crazyit.hrsystem.domain.Manager=javax.persistence.DiscriminatorValue,javax.persistence.Entity
+org.crazyit.hrsystem.domain.Payment=javax.persistence.Entity,javax.persistence.Table
+org.crazyit.hrsystem.domain.Employee=javax.persistence.DiscriminatorValue,javax.persistence.Entity,javax.persistence.Table,javax.persistence.DiscriminatorColumn
+org.crazyit.hrsystem.domain.AttendType=javax.persistence.Entity,javax.persistence.Table

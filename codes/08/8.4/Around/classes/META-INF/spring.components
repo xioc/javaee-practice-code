@@ -1,0 +1,4 @@
+#
+#Sat Dec 16 17:32:15 CST 2017
+org.crazyit.app.service.impl.WorldImpl=org.springframework.stereotype.Component
+org.crazyit.app.service.impl.HelloImpl=org.springframework.stereotype.Component

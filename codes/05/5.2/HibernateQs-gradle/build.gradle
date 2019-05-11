@@ -1,0 +1,16 @@
+// 引入Java插件
+apply plugin: 'java'
+// 引入application插件
+apply plugin: 'application'  
+// 设置字符集
+compileJava.options.encoding = "GBK"
+
+mainClassName = 'lee.NewsManager'
+
+dependencies {
+	// compile：该依赖是为了编译项目的源码
+	// runtime：该依赖为了项目运行时的classes，默认情况下也是为了compile
+	// testCompile:该依赖是为了编译项目测试的源码，默认情况下包括compile和runtime
+	// testRuntime:该依赖是为了执行测试的case。默认情况下包括compile、runtime和testCompile
+    compile fileTree(dir: '../../lib', include: ['**/*.jar'])
+}

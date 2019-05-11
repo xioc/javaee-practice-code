@@ -1,0 +1,8 @@
+#
+#Fri Dec 15 19:27:05 CST 2017
+org.crazyit.app.service.impl.UserServiceImpl=org.springframework.stereotype.Component
+org.crazyit.app.service.UserService=org.springframework.stereotype.Component
+org.crazyit.app.service.ItemService=org.springframework.stereotype.Component
+org.crazyit.app.dao.impl.ItemDaoImpl=org.springframework.stereotype.Component
+org.crazyit.app.service.impl.ItemServiceImpl=org.springframework.stereotype.Component
+org.crazyit.app.dao.impl.UserDaoImpl=org.springframework.stereotype.Component

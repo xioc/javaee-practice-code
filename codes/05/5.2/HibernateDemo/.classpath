@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-9">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Activation"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/C3P0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Hibernate5.2"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JAXB"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MySQL_Driver"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

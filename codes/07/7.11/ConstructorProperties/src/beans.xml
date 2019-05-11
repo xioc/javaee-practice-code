@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="GBK"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 使用ConstructorProperties配置了构造参数名之后，
+		接下来即可通过构造参数名来配置构造注入-->
+	<bean id="person" class="org.crazyit.app.service.Person">
+		<constructor-arg name="age" value="500"/>
+		<constructor-arg name="personName" value="孙悟空"/>
+	</bean>
+	<!-- 
+<bean id="person" class="org.crazyit.app.service.Person"
+	c:age="500" c:personName="孙悟空"/>
+	-->
+</beans>

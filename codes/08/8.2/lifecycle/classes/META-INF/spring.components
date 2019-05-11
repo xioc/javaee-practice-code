@@ -1,0 +1,4 @@
+#
+#Fri Dec 15 22:50:30 CST 2017
+org.crazyit.app.service.impl.SteelAxe=org.springframework.stereotype.Component
+org.crazyit.app.service.impl.Chinese=org.springframework.stereotype.Component
